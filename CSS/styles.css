@@ -26,6 +26,7 @@
     padding-right: 80;
     position: centered;
     margin-top: 10px;
+    size: 40px;
 
     /* width: 50;
     height: 100%; */
@@ -34,6 +35,9 @@
 }
 #about{
     text-align: center;  
+    margin-top: 20px;
+    line-height: 1.6;
+    align-items: center;
 }
 .services{
     background-image: url("../assets/backgrounds/s_image.jpg");
@@ -53,6 +57,9 @@
     padding-bottom: 50px;
     padding-left: 70px;
     padding-right: 70px;
+}
+.details{
+    display: none;
 }
 
 

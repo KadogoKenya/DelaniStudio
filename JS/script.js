@@ -1,21 +1,24 @@
+// image one
 
-$(".imageDetails .img1").click(function(){
-    $(".details").show();
-    $(".imageDetails .img1").hide();
+$("#img1").click(function(){
+    $("#designDetails").show();
+    $("#img1").hide();
 });
-$(".imageDetails .img1").mouseout(function() {
-    $(".details").hide();
-    $(".imageDetails .img1").show();
-  });
+$("#designDetails").click(function(){
+    $("#img1").show();
+    $("#designDetails").hide();
+});
+
 // image two
-$(".imageDetails .img2").click(function(){
+$(".img2").click(function(){
     $(".details").show();
-    $(".imageDetails .img2").hide();
+    $(".img2").hide();
 });
-$(".imageDetails .img2").mouseout(function() {
-    $(".details").hide();
-    $(".imageDetails .img2").show();
-  });
+$(".details").click(function(){
+    $(".img2").show();
+    $(".img2").hide();
+});
+
 
 //   image three script
 $(".imageDetails .img3").click(function(){
