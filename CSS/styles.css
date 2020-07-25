@@ -1,4 +1,38 @@
-body{
+.landingPage{
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding: 200px;
+    text-align: center;
+
+    
+}
+.landingPage>h4{
+    color: white;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.landingPage>p{
+    color: white;
+    padding-top: 20px;
+}
+.container-fluid {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50;
+    height: 100%;
+    position: centered;
+
+}
+#about{
+    text-align: center;  
+
+
+
+/* body{
     font-family: sans-serif;
 }
 #header{
@@ -49,4 +83,4 @@ h3{
   .textimg{
       background: url("./assets/backgrounds/s_image.jpg");
       background-color: #fff;
-  }
+  } */
