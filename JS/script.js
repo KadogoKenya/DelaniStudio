@@ -23,9 +23,9 @@ $(".details").click(function(){
 //   image three script
 $(".img3").click(function(){
     $(".dddetails").show();
-    $(".imageDetails .img3").hide();
+    $(".img3").hide();
 });
-$(".imageDetails .img3").mouseout(function() {
-    $(".details").hide();
-    $(".imageDetails .img3").show();
+$(".dddetails").mouseout(function() {
+    $(".dddetails").hide();
+    $(".img3").show();
   });
