@@ -16,13 +16,13 @@ $(".img2").click(function(){
 });
 $(".details").click(function(){
     $(".img2").show();
-    $(".img2").hide();
+    $(".details").hide();
 });
 
 
 //   image three script
-$(".imageDetails .img3").click(function(){
-    $(".details").show();
+$(".img3").click(function(){
+    $(".dddetails").show();
     $(".imageDetails .img3").hide();
 });
 $(".imageDetails .img3").mouseout(function() {
