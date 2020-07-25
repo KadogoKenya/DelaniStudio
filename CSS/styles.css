@@ -57,18 +57,20 @@
     padding-bottom: 50px;
     padding-left: 10%;
     padding-right: 10%;
+
     
     /* padding-top: 80px;
     padding-right: 30px;
     padding-bottom: 20px;
     padding-left: 80px;  */
 }
-.details{
+.details,.ddetails,.dddetails{
     display: none;
 }
-.dddetails{
-    display: none;
+.col>h6{
+    text-align: center;
 }
+
 .card-deck{
     padding-top: 80px;
     padding-right: 20%;
