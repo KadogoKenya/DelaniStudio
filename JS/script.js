@@ -25,7 +25,9 @@ $(".img3").click(function(){
     $(".dddetails").show();
     $(".img3").hide();
 });
-$(".dddetails").mouseout(function() {
+$(".dddetails").click(function() {
     $(".dddetails").hide();
     $(".img3").show();
   });
+
+
