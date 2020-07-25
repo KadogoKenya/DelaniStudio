@@ -82,6 +82,13 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
+/* contact form */
+.contactform{
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
 
 
 /* body{
