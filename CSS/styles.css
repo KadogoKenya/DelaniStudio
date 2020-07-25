@@ -75,6 +75,11 @@
     padding-bottom: 20px;
     padding-left: 20%; 
 }
+.imageDetails>h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 
 /* body{
