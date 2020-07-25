@@ -22,3 +22,9 @@ $(".imageDetails .img3").click(function(){
     $(".details").show();
     $(".imageDetails .img3").hide();
 });
+
+
+$(".imageDetails .img3").mouseout(function() {
+    $(".details").hide();
+    $(".imageDetails .img3").show();
+  });
