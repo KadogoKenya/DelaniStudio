@@ -64,7 +64,13 @@
     padding-bottom: 20px;
     padding-left: 80px;  */
 }
-.details,.ddetails,.dddetails{
+.details{
+    display: none;
+}
+.ddetails{
+    display: none;
+}
+.dddetails{
     display: none;
 }
 .col>h6{
