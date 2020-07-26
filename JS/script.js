@@ -32,4 +32,24 @@ $(document).ready(function(){
         $(".img3").show();
     });
 
+
+// portifolio
+$(".myportifolio").hover(
+    function() {
+      $(this)
+        .find(".overlay")
+        .show();
+    },
+    function() {
+      $(this)
+        .find(".overlay")
+        .hide();
+    }
+  );
+$(".btn btn-sbumit").click(event =>{
+    event.preventDefault()
+
+    alert("welcome")
+});
+
 });
