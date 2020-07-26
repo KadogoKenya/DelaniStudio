@@ -1,21 +1,22 @@
-// image one
+
 $(document).ready(function(){
-    $("#img1").click(function(){
-        $(".details").hide().toggle();
-        $("#img1").slideup();
+    // image one
+    $(".img1").click(function(){
+        $(".details").show();
+        $(".img1").hide();
     });
-    
-    $(".details").click(function(){
-        $("#img1").slidedown();
+    $(".details").click(function() {
         $(".details").hide();
+        $(".img1").show();
     });
+
 
     // image two
     $(".img2").click(function(){
-        $(".details").show();
+        $(".ddetails").show();
         $(".img2").hide();
     });
-    $(".details").click(function(){
+    $(".ddetails").click(function(){
         $(".img2").show();
         $(".ddetails").hide();
     });
@@ -30,6 +31,5 @@ $(document).ready(function(){
         $(".dddetails").hide();
         $(".img3").show();
     });
-
 
 });
