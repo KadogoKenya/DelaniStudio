@@ -60,4 +60,16 @@ $(".text1").mouseover(function(){
     $(".image1").show();
 });
 
+$(document).ready( function() {
+ 
+    $("#button").click( function() {
+     
+    jAlert('Your accout has been updated!', 'A basic alert');
+     
+    });
+     
+    });
+
+
 });
+
