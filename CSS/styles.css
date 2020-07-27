@@ -85,6 +85,12 @@
     padding-left: 25%; 
     margin: 10px;
 }
+.card.pointer{
+    cursor: pointer;
+}
+.card:hover {
+    background-color: #ccc;
+} 
 .imageDetails>h3{
     text-align: center;
     margin-top: 5px;
@@ -109,13 +115,13 @@
   text-decoration: none;
   margin: 5px 2px;
 }
-#social {
+/* #social {
     padding-top: 40px;
 }
 
 #social-padding img {
     padding: 5px;
-}
+} */
 
 /* .overlay{
     display: none;
@@ -130,38 +136,39 @@
     text-align: center;
     font-size: 20px; 
 }  */
-.card.pointer{
-        cursor: pointer;
-}
-.card:hover {
-        background-color: #ccc;
-} 
+
 
 /* contact us section */
 
 #mcontact {
     height: 60%;
-    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     color: white;
     margin-top: 70px;
+
 }
 
-.mForm {
+#message,#name,#email{
+    background-color: transparent;
+    color: white;
+}
+
+/* .mForm {
     padding-top: 70px;
 }
 
 form#contact-form::-webkit-input-placeholder {
     /* Edge */
-    color: white;
+    /* color: white;
 }
 
 form#contact-form :-ms-input-placeholder {
     /* Internet Explorer */
-    color: white;
+    /* color: white;
 }
 
 form#contact-form ::placeholder {
@@ -172,24 +179,25 @@ form#contact-form ::placeholder {
 .isInput:focus {
     background-color: transparent;
     color: #fff
-}
+} 
+
 #social {
     padding-top: 40px;
 }
 
-#social-padding img {
+/* #social-padding img {
     padding: 5px;
-}
+} */
 
-.textarea{
+/* .textarea{
     width: 100%;
     height: 200px;
     color: white;
     padding: 12px;
 
-}
+} */
 
-.work-heading {
+/* .work-heading {
     display: none;
     background-color: white;
     opacity: 0.8;
@@ -203,7 +211,7 @@ form#contact-form ::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 
 
