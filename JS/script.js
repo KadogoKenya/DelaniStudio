@@ -52,4 +52,12 @@ $(".btn btn-sbumit").click(event =>{
     alert("welcome")
 });
 
+$(".imgage1").mouseover(function(){
+    $(".text1").show();
+   
+});
+$(".text1").mouseover(function(){
+    $(".image1").show();
+});
+
 });
