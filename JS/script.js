@@ -59,17 +59,24 @@ $(".imgage1").mouseover(function(){
 $(".text1").mouseover(function(){
     $(".image1").show();
 });
-
-$(document).ready( function() {
- 
-    $("#button").click( function() {
-     
-    jAlert('Your accout has been updated!', 'A basic alert');
-     
-    });
-     
-    });
-
-
 });
+
+// $("#button").click( function myFunction () {
+
+    function myFunction(form){
+
+        // event.preventDefault();
+
+        let NAME=document.forms ["contact"]["NAME"].value;
+        let EMAIL=document.forms ["contact"]["EMAIL"].value;
+        let MESSAGE=document.forms ["contact"]["MESSAGE"].value;
+
+        Alert('Hello', + name +  'Your accout has been updated!');
+    };
+
+
+
+
+// document.getElementById("button").onclick = myFunction;
+    
 
